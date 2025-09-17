@@ -1,0 +1,35 @@
+# Ignore artifacts:
+build
+coverage
+dist
+node_modules
+
+# Ignore version control:
+.git
+.hg
+.svn
+
+# Ignore lock files:
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore configuration files:
+*.config.js
+*.config.cjs
+*.config.mjs
+
+# Ignore compiled files:
+*.min.js
+*.bundle.js
+
+# Ignore other files:
+*.log
+*.tmp
+*.bak
+
+# Ignore specific folders or files:
+public/
+scripts/
+vendor/
+.env
